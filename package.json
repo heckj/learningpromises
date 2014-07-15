@@ -4,7 +4,7 @@
   "description": "test and sample code uses promises with q",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec test/**/*.js"
+    "test": "mocha -R spec test/*.js"
   },
   "repository": {
     "type": "git",
