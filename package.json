@@ -1,0 +1,31 @@
+{
+  "name": "learningpromises",
+  "version": "0.1.0",
+  "description": "test and sample code uses promises with q",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heckj/learningpromises.git"
+  },
+  "keywords": [
+    "q",
+    "test",
+    "howto"
+  ],
+  "author": "Joe Heck",
+  "license": "CC0 1.0 Universal",
+  "bugs": {
+    "url": "https://github.com/heckj/learningpromises/issues"
+  },
+  "homepage": "https://github.com/heckj/learningpromises",
+  "dependencies": {
+    "q": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1"
+  }
+}
