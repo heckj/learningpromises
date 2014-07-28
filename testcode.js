@@ -5,6 +5,8 @@
     var Q = require('q'),
         _ = require('lodash'),
         async = require('async');
+    var nconf = require('nconf');
+    console.log("NCONF TESTCODE.JS ['a'] is "+nconf.get('a'));
 
     index.doSomething = function() {
         var deferred = Q.defer();
